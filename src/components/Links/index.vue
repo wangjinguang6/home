@@ -61,7 +61,7 @@ let linksData = [
   {
     icon: CompactDisc,
     name: "网站集",
-    link: "https://web.bsgun.cn/",
+    link: "https://www.bsgun.cn/",
   },
   {
     icon: Fire,
