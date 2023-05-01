@@ -49,20 +49,30 @@ let linksData = [
     link: "https://blog.bsgun.cn",
   },
   {
-    icon: CompactDisc,
-    name: "音乐",
-    link: "https://music.bsgun.cn/",
-  },
-  {
     icon: Compass,
     name: "起始页",
     link: "https://nav.bsgun.cn/",
+  },  
+  {
+    icon: CompactDisc,
+    name: "音乐",
+    link: "https://music.bsgun.cn/",
+  }, 
+  {
+    icon: CompactDisc,
+    name: "网站集",
+    link: "https://web.bsgun.cn/",
   },
   {
     icon: Fire,
     name: "今日热榜",
     link: "https://hot.bsgun.cn/",
   },
+  {
+    icon: Cloud,
+    name: "雨云",
+    link: "https://www.rainyun.com/Glume_",
+  }, 
 ];
 
 // 链接跳转

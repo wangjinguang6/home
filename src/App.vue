@@ -126,10 +126,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss" scoped>
-.el-col.el-col-8.is-guttered {
-    max-width: 50% !important;
-    flex: 0 0 50% !important;
-}
 main {
   .container {
     width: 100%;
