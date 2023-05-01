@@ -86,6 +86,13 @@ const jumpLink = (url) => {
       text-shadow: 0 0 5px #00000050;
     }
   }
+.el-col-8 {
+  max-width: 50%;!important
+
+}
+.el-col-8 {
+  flex: 0 0 50%;!important；
+}
   .link-all {
     .item {
       height: 100px;
