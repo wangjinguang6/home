@@ -14,8 +14,11 @@ body {
   overflow: hidden;
 }
 .el-col-8 {
-  max-width: 50%!important;
-  flex: 0 0 50%!important;
+  max-width: 50%;!important
+
+}
+.el-col-8 {
+  flex: 0 0 50%;!important；
 }
 *,
 a,
