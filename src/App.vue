@@ -100,23 +100,7 @@ onMounted(() => {
   let styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   let styleContent = "color: rgb(30,152,255);";
   let title1 = "Linms";
-  let title2 = `
-
-   ,--,                                                    
-,---.'|                                                    
-|   | :                                 ____               
-:   : |     ,--,                      ,'  , `.             
-|   ' :   ,--.'|         ,---,     ,-+-,.' _ |             
-;   ; '   |  |,      ,-+-. /  | ,-+-. ;   , ||  .--.--.    
-'   | |__ `--'_     ,--.'|'   |,--.'|'   |  || /  /    '   
-|   | :.'|,' ,'|   |   |  ,"' |   |  ,', |  |,|  :  /`./   
-'   :    ;'  | |   |   | /  | |   | /  | |--' |  :  ;_     
-|   |  ./ |  | :   |   | |  | |   : |  | ,     \  \    `.  
-;   : ;   '  : |__ |   | |  |/|   : |  |/       `----.   \ 
-|   ,/    |  | '.'||   | |--' |   | |`-'       /  /`--'  / 
-'---'     ;  :    ;|   |/     |   ;/          '--'.     /  
-          |  ,   / '---'      '---'             `--'---'   
-           ---`-' `;
+  let title2 = "bsgun.cn"
   let content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(
     `%c${title1} %c${title2} %c${content}`,
