@@ -15,7 +15,7 @@
       >
         <div
           class="item cards"
-          :style="index < 3 ? 'margin-bottom: 20px' : null"
+          :style="index < 2 ? 'margin-bottom: 20px' : null"
         >
           <Icon size="26">
             <component :is="item.icon" />
