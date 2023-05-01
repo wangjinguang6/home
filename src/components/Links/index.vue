@@ -6,7 +6,7 @@
       </Icon>
       <span class="title">网站列表</span>
     </div>
-    <el-row class="link-all link-bb" :gutter="20" >
+    <el-row class="link-all" :gutter="20" >
       <el-col
         :span="8"
         v-for="(item, index) in linksData"
