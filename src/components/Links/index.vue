@@ -72,6 +72,10 @@ const jumpLink = (url) => {
 </script>
 
 <style lang="scss" scoped>
+.el-col-8 {
+    max-width: 50%!import;
+    flex: 0 0 50%!import;
+}
 .links {
   .line {
     margin: 2rem 0.25rem 1rem;
