@@ -6,7 +6,7 @@
       </Icon>
       <span class="title">网站列表</span>
     </div>
-    <el-row class="link-all" :gutter="20">
+    <el-row class="link-all link-bb" :gutter="20" >
       <el-col
         :span="8"
         v-for="(item, index) in linksData"
@@ -15,7 +15,7 @@
       >
         <div
           class="item cards"
-          :style="index < 2 ? 'margin-bottom: 20px' : null"
+          :style="index < 3 ? 'margin-bottom: 20px' : null"
         >
           <Icon size="26">
             <component :is="item.icon" />
@@ -86,13 +86,6 @@ const jumpLink = (url) => {
       text-shadow: 0 0 5px #00000050;
     }
   }
-.el-col-8 {
-  max-width: 50%;!important
-
-}
-.el-col-8 {
-  flex: 0 0 50%;!important；
-}
   .link-all {
     .item {
       height: 100px;
